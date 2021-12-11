@@ -7,24 +7,41 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css">
     <title>Contacto</title>
 </head>
-<header class="header">
-    <img class="header__logo" src="../img/Copia de logo engranando (1).png" alt="Logo Engrananado Mx">
-    <br>
-    <nav class="headernav">
-    <ul class="header__list">
-        <li class="header__item"><a class="header__link" href="./engranajes/tiposdeengranes.html">Engranajes</a></li>
-        <li class="header__item"><a class="header__link" href="./engranajes/historia.html">Quiénes somos</a></li>
-        <li class="header__item"><a class="header__link" href="./engranajes/cotiza.html">Cotiza tu engranaje</a></li>
-        <li class="header__item"><a class="header__link" href="./engranajes/rastreo.html">Mi pedido</a></li>
-        <li class="header__item"><a class="header__link" href="./engranajes/contacto.html">Contáctanos</a></li>
-        <li class="header__item"><a class="header__link" href="./engranajes/preguntasFrecuentes.html">Preguntas Frecuentes</a></li>
-    </ul>
-</nav>
-</header>
-<hr class="separador color-change-2x">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./indexbootstrap.html"> <img src="../img/Copia de logo engranando.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../engranajes/cotiza.html">Cotiza</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../engranajes/tiposdeengranesbootstrap.html">Tipos de engranes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../engranajes/rastreo.html">Rastrea tu pedido</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../engranajes/historia.html">Quiénes somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../engranajes/preguntasFrecuentes.html">Preguntas Frecuentes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../engranajes/contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <hr class="separador color-change-2x">
 <body>
     <div>
         <h1>Déjanos tu contacto</h1>
@@ -54,4 +71,5 @@
         <p class="leyenda">Hacemos envíos a Todo México</p>
        </div>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </html>

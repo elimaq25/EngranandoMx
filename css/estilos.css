@@ -96,6 +96,17 @@ li:hover{
 
 }
 
+.nav-item{
+    margin: 0px 15px;
+}
+
+
+.heroe{
+    height: 500px;
+    width: 500px;
+    
+}
+
 
 .separador{
     background: rgb(103,8,167);
