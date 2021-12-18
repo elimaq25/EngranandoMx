@@ -1,0 +1,19 @@
+.engrane__imagen{
+    width: 100%;
+    max-width: 150px;
+    height: 150px;
+    object-fit: cover; 
+
+    .tipode__engrane{
+        text-align: center;
+        font-weight: 700;
+        color: white;
+    }
+    
+    .engrane__parrafo{
+        text-align: justify;
+        font-weight: 500;
+        color: white;
+    }
+}
+

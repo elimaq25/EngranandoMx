@@ -1,0 +1,39 @@
+
+
+  .btn_tipos{
+    position: relative;
+    left: 30px;
+    margin: 20px;
+    padding: 10px 10px;
+    border: black;
+    background-color: $color-principal;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    transition: 2s;
+
+    &.mt-5:hover {
+        background-color: white;
+        color: black;
+    }
+
+
+}
+
+    .btn{
+        position: relative;
+        left: 30px;
+        margin: 20px;
+        padding: 10px 10px;
+        border: black;
+        background-color: $color-principal;
+        color: white;
+        border-radius: 10px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 2rem;
+        font-weight: bolder;
+
+
+    }

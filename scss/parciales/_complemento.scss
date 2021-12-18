@@ -1,0 +1,28 @@
+@import "./vars";
+
+.complemento{
+    background-color: grey;
+    padding: 20px 10px;
+    display: flex;
+    color: white;
+
+    &__contenedor{
+        flex-basis: 70%;
+    }
+    
+    &__video{
+        width: 100%;
+    }
+    
+    &__parrafo{
+        line-height: 1.5;
+        font-size: 2rem;
+    }
+    
+    &__contenedor--text{
+        align-self: center;
+    }
+
+
+
+}

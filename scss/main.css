@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.complemento {
+  background-color: grey;
+  padding: 20px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+}
+
+.complemento__contenedor {
+  -ms-flex-preferred-size: 70%;
+      flex-basis: 70%;
+}
+
+.complemento__video {
+  width: 100%;
+}
+
+.complemento__parrafo {
+  line-height: 1.5;
+  font-size: 2rem;
+}
+
+.complemento__contenedor--text {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.separador {
+  background: #6708a7;
+  background: -webkit-gradient(linear, left top, right top, from(#6708a7), color-stop(33%, #a708a7), color-stop(81%, #ff8bff));
+  background: linear-gradient(90deg, #6708a7 0%, #a708a7 33%, #ff8bff 81%);
+  height: 20px;
+  border: none;
+}
+
+.separador .color-change-2x {
+  -webkit-animation: color-change-2x 2s linear infinite alternate both;
+  animation: color-change-2x 2s linear infinite alternate both;
+}
+
+.engrane__imagen {
+  width: 100%;
+  max-width: 150px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.engrane__imagen .tipode__engrane {
+  text-align: center;
+  font-weight: 700;
+  color: white;
+}
+
+.engrane__imagen .engrane__parrafo {
+  text-align: justify;
+  font-weight: 500;
+  color: white;
+}
+
+.btn_tipos {
+  position: relative;
+  left: 30px;
+  margin: 20px;
+  padding: 10px 10px;
+  border: black;
+  background-color: #6708a7;
+  color: white;
+  border-radius: 10px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2rem;
+  font-weight: bolder;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.btn_tipos.mt-5:hover {
+  background-color: white;
+  color: black;
+}
+
+.btn {
+  position: relative;
+  left: 30px;
+  margin: 20px;
+  padding: 10px 10px;
+  border: black;
+  background-color: #6708a7;
+  color: white;
+  border-radius: 10px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+/*# sourceMappingURL=main.css.map */
