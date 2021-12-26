@@ -1,6 +1,4 @@
-
-
-  .btn_tipos{
+.btn{
     position: relative;
     left: 30px;
     margin: 20px;
@@ -12,7 +10,27 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 2rem;
     font-weight: bolder;
-    transition: 2s;
+
+    @include tablet{
+        position: relative;
+        left: 15px;
+        margin: 15px;
+        padding: 10px 10px;
+        border: black;
+        background-color: #6708a7;
+        color: white;
+        border-radius: 8px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+
+}
+
+  
+  
+  .btn_tipos{
+    @extend .btn;
 
     &.mt-5:hover {
         background-color: white;
@@ -22,18 +40,4 @@
 
 }
 
-    .btn{
-        position: relative;
-        left: 30px;
-        margin: 20px;
-        padding: 10px 10px;
-        border: black;
-        background-color: $color-principal;
-        color: white;
-        border-radius: 10px;
-        font-family: 'Source Sans Pro', sans-serif;
-        font-size: 2rem;
-        font-weight: bolder;
-
-
-    }
+ 
