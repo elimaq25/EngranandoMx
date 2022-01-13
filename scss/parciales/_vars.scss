@@ -1,0 +1,15 @@
+$color-principal: #6708a7;
+$estilos: (
+    color: gray,
+    centro: center,
+    tFuente: 20 px,
+    1rem: 1rem
+);
+
+.columna{
+   background-color: map-get($map:estilos, $key:color );
+   text-align: map-get($map:estilos, $key:centro);
+   padding: map-get($map:estilos, $key:1rem );
+   font-size: map-get($map:estilos, $key:tFuente);
+}
+

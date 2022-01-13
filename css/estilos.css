@@ -286,6 +286,11 @@ li:hover{
 
     }
 
+    .cotiza{
+        max-width: 300px;
+        max-height: 300px;
+    }
+
     .formulario__cotizar{
         width: 100%;
         background-color: white;
@@ -401,6 +406,7 @@ li:hover{
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: auto;
     }
+   
     p{
         font-size: 1.4rem;
     }

@@ -274,6 +274,10 @@ li:hover{
 
     }
 
+   .cotizar{
+       max-width: 250px;
+       max-height: 250px;
+   } 
     .formulario__cotizar{
         width: 100%;
         background-color: white;
@@ -354,8 +358,13 @@ li:hover{
     line-height: 1.5;
     font-size: 1.5rem;
 }
+.cotizar{
+    max-width: 200px;
+    max-height: 200px;
+}
 
 }
+ 
 
 @media screen and (max-width: 425px) {
     .header, .header__logo, .header__item{
@@ -392,7 +401,10 @@ li:hover{
         width: 100%;
        margin-top: 0px;
     }
-
+    .cotizar{
+        max-width: 150px;
+        max-height: 150px;
+    }
 
 }
 
@@ -419,6 +431,7 @@ li:hover{
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: auto;
     }
+   
     p{
         font-size: 1.2rem;
     }
@@ -430,6 +443,10 @@ li:hover{
     }
     h2{
         font-size: 1.5rem;
+    }
+    .cotizar{
+        max-width: 100px;
+        max-height: 100px;
     }
     .formulario {
         background-color: gray;
@@ -447,6 +464,7 @@ li:hover{
     .leyenda{
         font-size: 2rem;
     }
+    
 
 }
 
