@@ -144,8 +144,8 @@ li:hover{
 
   .btn_tipos{
     position: relative;
-    left: 30px;
-    margin: 20px;
+    left: 200px;
+    margin: 30px;
     padding: 10px 10px;
     border: black;
     background-color: #6708a7;
@@ -337,6 +337,22 @@ li:hover{
 
 @media screen and (max-width: 768px){
 
+    .btn_tipos{
+        position: relative;
+        left: 170px;
+        margin: 30px;
+        padding: 10px 10px;
+        border: black;
+        background-color: #6708a7;
+        color: white;
+        border-radius: 10px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 2rem;
+        font-weight: bolder;
+        transition: 2s;
+    
+    
+    }
 
     .btn{
         position: relative;
@@ -389,17 +405,21 @@ li:hover{
     }
     .btn_tipos{
         position: relative;
-        left: 30px;
-        margin: 20px;
+        display: block;
+        left: 10px;
+        margin: 30px;
+        margin-bottom: 30px;
         padding: 10px 10px;
         border: black;
         background-color: #6708a7;
         color: white;
         border-radius: 10px;
+        text-align: center;
         font-family: 'Source Sans Pro', sans-serif;
-        font-size: 1rem;
+        font-size: 2rem;
         font-weight: bolder;
     }
+
 
     .grid{
         display: grid;
