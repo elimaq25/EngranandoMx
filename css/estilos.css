@@ -273,6 +273,15 @@ li:hover{
      color: white;
  }
 
+ .container_img{
+    display: flex;
+    justify-content: center;
+ }
+
+ .container_foto{
+     width: 300px;
+     height: 300px;
+ }
  .formulario{
      width: 400px;
      background-color: gray;
@@ -333,7 +342,48 @@ li:hover{
     font-size: 15px;
 }
 
+.footer{
+    background-color: black;
+}
+
+.footer_leyenda{
+    font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 700;
+        color: white;
+        font-size: 40px;
+        text-align: center;
+}
+
+
+
+.footer_img{
+    
+    float: left;
+    width: 30px;
+    padding: 0px;
+    margin-top: 8px;
+    margin-left: 40px;
+}
+
+.footer_texto{
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 700;
+        color: white;
+        font-size: 20px;
+        text-align: left;
+        padding: 10px;
+        margin-left: 10px;
+}
+
+.footer_logo{
+    display: block;
+    margin: auto;
+}
+
 /* Media Queries -- Responsive */
+
 
 @media screen and (max-width: 768px){
 
@@ -389,6 +439,15 @@ li:hover{
     line-height: 1.5;
     font-size: 1.5rem;
 }
+
+.footer_img{
+    float: left;
+    width: 30px;
+    padding: 0px;
+    margin-left: 290px;
+    margin-top: 8px;
+}
+
 
 }
 
@@ -446,9 +505,26 @@ li:hover{
         width: 100%;
        margin-top: 0px;
     }
+    .container_img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
 
-
+    .footer_img{
+        float: left;
+        width: 30px;
+        padding: 0px;
+        margin-left: 100px;
+        margin-top: 8px;
+    }
+    .footer_texto{
+        
+        font-size: 15px;
+        
 }
+}
+
 
 @media screen and (max-width: 320px){
     .header, .header__logo, .header__item{
@@ -502,5 +578,15 @@ li:hover{
         font-size: 2rem;
     }
 
+    .footer_img{
+        float: left;
+        width: 30px;
+        padding: 0px;
+        margin-left: 50px;
+        margin-top: 8px;
+    }
+    .footer_texto{
+        
+        font-size: 15px;
+        
 }
-
